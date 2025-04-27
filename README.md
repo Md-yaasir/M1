@@ -1,5 +1,7 @@
 
 # EX-01-Datatypes-Operators
+## REG-NO: 212224040196
+## DATE : 27-04-25
 ## AIM:
 Write a C program to read 3 characters one by one and print the characters in a reverse order.
 
@@ -10,23 +12,28 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+
+int main() {
+    char ch1, ch2, ch3;
+
+    printf("Enter first character: ");
+    scanf(" %c", &ch1);
+    printf("Enter second character: ");
+    scanf(" %c", &ch2);
+    printf("Enter third character: ");
+    scanf(" %c", &ch3);
+
+    printf("Characters in reverse order: %c %c %c\n", ch3, ch2, ch1);
+
+    return 0;
+}
+```
 
 ## OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2025-04-27 120220](https://github.com/user-attachments/assets/f4128015-f98a-44f5-99f0-325aa5fa8ca0)
 
 
 ## RESULT:
